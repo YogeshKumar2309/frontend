@@ -1,0 +1,11 @@
+//sort
+array.sort((a, b) => {
+    // return negative → a first
+    // return positive → b first
+    // return zero → no change
+});
+
+
+If return < 0  → a comes first
+If return > 0  → b comes first
+If return === 0 → same position
